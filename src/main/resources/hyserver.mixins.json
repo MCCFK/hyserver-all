@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "mccfk.hy.hyserver.java.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerListMixin",
+    "ServerPlayerMixin",
+    "ServerLoginPacketListenerMixin",
+    "VersionCheckLoginMixin",
+    "SignEditScreenMixin",
+    "ServerSignPacketMixin"
+  ],
+  "client": [
+    "ChatComponentMixin",
+    "ChatScreenAccessor",
+    "ChatTrustLevelMixin",
+    "ClientPacketListenerMixin",
+    "NameTagMultiLineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "refmap": "hyserver.refmap.json"
+}
