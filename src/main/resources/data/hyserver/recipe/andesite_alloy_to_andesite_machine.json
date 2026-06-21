@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "hyserver:andesite_machine"
+  },
+  "result": {
+    "id": "create:andesite_alloy"
+  }
+}

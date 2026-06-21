@@ -1,0 +1,132 @@
+{
+  "hyserver.permission.level.0": "普通玩家",
+  "hyserver.permission.level.1": "普通管理员",
+  "hyserver.permission.level.2": "高级管理员",
+  "cfk.itemGroup.hyserver": "灰羊服务器",
+  "block.hyserver.andesite_machine": "安山机械",
+  "block.hyserver.copper_machine": "密封机械",
+  "block.hyserver.brass_machine": "黄铜机械",
+  "block.hyserver.redstone_machine": "红石机械",
+  "block.hyserver.infinite_lava": "无限岩浆源",
+  "block.hyserver.infinite_water": "无限水源",
+  "item.hyserver.dimension_key": "维度钥匙",
+  
+  "block.hyserver.solar_panel": "太阳能板",
+  "block.hyserver.solar_panel_1": "1级压缩太阳能板",
+  "block.hyserver.solar_panel_2": "2级压缩太阳能板",
+  "block.hyserver.solar_panel_3": "3级压缩太阳能板",
+  
+  "item.hyserver.solar_panel": "太阳能板",
+  "item.hyserver.solar_panel_1": "1级压缩太阳能板",
+  "item.hyserver.solar_panel_2": "2级压缩太阳能板",
+  "item.hyserver.solar_panel_3": "3级压缩太阳能板",
+  
+  "item.hyserver.durian_processing_knife": "榴莲处理刀",
+  "item.hyserver.temp_df": "临时DF物品",
+  
+  "item.hyserver.african_star": "非洲之星",
+  "item.hyserver.ocean_tear": "海洋之泪",
+  "item.hyserver.experimental_data": "实验数据",
+  "item.hyserver.sugar_triangle": "糖三角",
+  "item.hyserver.design_blueprint": "设计图纸",
+  "item.hyserver.carbon_fiber_plate": "碳纤维板",
+  "item.hyserver.gold_bar": "金条",
+  "item.hyserver.impressionist_painting": "印象派名画",
+  "item.hyserver.asara_classified_docs": "阿萨拉卫队机密档案",
+  "item.hyserver.dancing_girl": "跳舞的女郎",
+  "item.hyserver.gold_coin": "金币",
+  "item.hyserver.silver_coin": "银币",
+  "item.hyserver.copper_coin": "铜币",
+  "item.hyserver.little_joker": "小王",
+  
+  "item.hyserver.note_paper": "纸条",
+  
+  "config.create.client_settings": "客户端设置",
+  "config.create.world_generation_settings": "世界生成设置",
+  "config.create.gameplay_settings": "游戏性设置",
+  
+  "hyserver.commandhelp.hyserver.help.usage": "&e用法：&7/hyserver help [关键词]",
+  "hyserver.commandhelp.hyserver.help.desc": "&e描述：&7查看指令帮助（支持搜索）",
+  
+  "hyserver.commandhelp.hytpa.usage": "&e用法：&7/hytpa <玩家>",
+  "hyserver.commandhelp.hytpa.desc": "&e描述：&7请求传送到对方",
+  
+  "hyserver.commandhelp.hytpahere.usage": "&e用法：&7/hytpahere <玩家>",
+  "hyserver.commandhelp.hytpahere.desc": "&e描述：&7请求对方传送到自己",
+  
+  "hyserver.commandhelp.hytpaccept.usage": "&e用法：&7/hytpaccept [玩家]",
+  "hyserver.commandhelp.hytpaccept.desc": "&e描述：&7接受TPA请求",
+  
+  "hyserver.commandhelp.hytpdeny.usage": "&e用法：&7/hytpdeny [玩家]",
+  "hyserver.commandhelp.hytpdeny.desc": "&e描述：&7拒绝TPA请求",
+  
+  "hyserver.commandhelp.hytpcancel.usage": "&e用法：&7/hytpcancel",
+  "hyserver.commandhelp.hytpcancel.desc": "&e描述：&7取消TPA请求",
+  
+  "hyserver.commandhelp.hyrtp.usage": "&e用法：&7/hyrtp",
+  "hyserver.commandhelp.hyrtp.desc": "&e描述：&7随机传送（等级2无冷却）",
+  
+  "hyserver.commandhelp.hyback.usage": "&e用法：&7/hyback",
+  "hyserver.commandhelp.hyback.desc": "&e描述：&7返回上一个位置",
+  
+  "hyserver.commandhelp.hysethome.usage": "&e用法：&7/hysethome <名称>",
+  "hyserver.commandhelp.hysethome.desc": "&e描述：&7在当前位置设置家",
+  
+  "hyserver.commandhelp.hyhome.usage": "&e用法：&7/hyhome <名称>",
+  "hyserver.commandhelp.hyhome.desc": "&e描述：&7传送到家（支持Tab补全）",
+  
+  "hyserver.commandhelp.hydhome.usage": "&e用法：&7/hydhome <名称>",
+  "hyserver.commandhelp.hydhome.desc": "&e描述：&7删除家（支持Tab补全）",
+  
+  "hyserver.commandhelp.hydimension.usage": "&e用法：&7/hy维度 切换 <维度名>",
+  "hyserver.commandhelp.hydimension.desc": "&e描述：&7切换维度（主世界/下界/末地）",
+  
+  "hyserver.commandhelp.hyserver.desc": "&e描述：&7服务器管理指令",
+  
+  "hyserver.commandhelp.hyserver.op.desc": "&e描述：&7权限管理",
+  
+  "hyserver.commandhelp.hyserver.op.info.usage": "&e用法：&7/hyserver op info [玩家]",
+  "hyserver.commandhelp.hyserver.op.info.desc": "&e描述：&7查看权限信息",
+  
+  "hyserver.commandhelp.hyserver.op.set.usage": "&e用法：&7/hyserver op set <玩家> <0-2>",
+  "hyserver.commandhelp.hyserver.op.set.desc": "&e描述：&7设置玩家权限等级",
+  
+  "hyserver.commandhelp.hyserver.server.usage": "&e用法：&7/hyserver server <指令>",
+  "hyserver.commandhelp.hyserver.server.desc": "&e描述：&7在服务器终端执行指令（等级2）",
+  
+  "hyserver.commandhelp.hyserver.reload.usage": "&e用法：&7/hyserver reload",
+  "hyserver.commandhelp.hyserver.reload.desc": "&e描述：&7重新加载配置",
+  
+  "hyserver.commandhelp.hyserver.title.desc": "&e描述：&7称号系统",
+  
+  "hyserver.commandhelp.hyserver.title.set.usage": "&e用法：&7/hyserver title set <玩家> <称号>",
+  "hyserver.commandhelp.hyserver.title.set.desc": "&e描述：&7为他人设置称号（等级2）",
+  
+  "hyserver.commandhelp.hyserver.title.seti.usage": "&e用法：&7/hyserver title seti <称号>",
+  "hyserver.commandhelp.hyserver.title.seti.desc": "&e描述：&7为自己设置称号",
+  
+  "hyserver.commandhelp.hyserver.uuid.usage": "&e用法：&7/hyserver uuid [玩家]",
+  "hyserver.commandhelp.hyserver.uuid.desc": "&e描述：&7获取玩家UUID",
+  
+  "hyserver.commandhelp.hyserver.music-getid.usage": "&e用法：&7/hyserver music-getid",
+  "hyserver.commandhelp.hyserver.music-getid.desc": "&e描述：&7网易云音乐导入助手",
+  
+  "hyserver.commandhelp.hyserver.ban.usage": "&e用法：&7/hyserver ban <玩家> <原因> [时长]",
+  "hyserver.commandhelp.hyserver.ban.desc": "&e描述：&7封禁玩家",
+  
+  "hyserver.commandhelp.hyserver.unban.usage": "&e用法：&7/hyserver unban <玩家>",
+  "hyserver.commandhelp.hyserver.unban.desc": "&e描述：&7解封玩家",
+  
+  "hyserver.commandhelp.hyserver.banlist.usage": "&e用法：&7/hyserver banlist",
+  "hyserver.commandhelp.hyserver.banlist.desc": "&e描述：&7查看封禁列表",
+  
+  "hyserver.commandhelp.hyclient.desc": "&e描述：&7客户端指令",
+  
+  "hyserver.commandhelp.hyclient.info.usage": "&e用法：&7/hyclient info",
+  "hyserver.commandhelp.hyclient.info.desc": "&e描述：&7查看客户端详细信息",
+  
+  "hyserver.commandhelp.msg.usage": "&e用法：&7/msg <玩家> <消息>",
+  "hyserver.commandhelp.msg.desc": "&e描述：&7私聊（支持颜色代码）",
+  
+  "hyserver.title.none": "无称号"
+}

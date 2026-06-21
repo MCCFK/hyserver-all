@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "hyserver:brass_machine"
+  },
+  "result": {
+    "id": "create:brass_funnel"
+  }
+}

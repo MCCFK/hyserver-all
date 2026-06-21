@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hyserver:block/infinite_lava"
+    }
+  }
+}

@@ -1,0 +1,429 @@
+{
+    "block.offroad.wheel_mount.tooltip": {
+    "summary": "安装_轮式_物品以实现地面移动。",
+    "condition1": "当从顶部提供红石信号时",
+    "behaviour1": "_制动_附着的车轮，_增加摩擦力_。",
+    "condition2": "当从侧面提供红石信号时",
+    "behaviour2": "将车轮向_信号来源的侧面_方向_转向_。"
+},
+
+"item.offroad.small_tire.tooltip": {
+    "summary": "一种_小型地形轮胎。_",
+    "condition1": "当在车轮支架上右键点击时",
+    "behaviour1": "_放置_轮胎到支架上。"
+},
+
+"item.offroad.tire.tooltip": {
+    "summary": "一种标准的_全地形轮胎。_",
+    "condition1": "当在车轮支架上右键点击时",
+    "behaviour1": "_放置_轮胎到支架上。"
+},
+
+"item.offroad.large_tire.tooltip": {
+    "summary": "一种大型_全地形轮胎。_",
+    "condition1": "当在车轮支架上右键点击时",
+    "behaviour1": "_放置_轮胎到支架上。"
+},
+
+"item.offroad.monstrous_tire.tooltip": {
+    "summary": "一种巨大的_全地形轮胎。_",
+    "condition1": "当在车轮支架上右键点击时",
+    "behaviour1": "_放置_轮胎到支架上。"
+},
+
+"offroad": {
+    "simulated_section.offroad": "越野",
+    "tooltip.borehead_bearing_stress": "岩石切割轮",
+
+    "scroll_option": {
+        "suspension_strength": "悬挂强度",
+        "suspension_strength_label": "强度"
+    },
+
+    "exceptions": {
+        "borehead_bearing": {
+            "insuffecient_rockcutting_wheels": "附着结构不包含任何_岩石切割轮_：\n至少需要_一_个。",
+            "insuffecient_inventory_blocks": "附着结构不包含任何_容器_方块。",
+
+            "too_many_items": "此装置无法进行挖掘。",
+            "too_many_items_description": "_存储空间不足_，无法收集更多方块。请_移除_多余物品以继续挖掘。"
+        }
+    }
+},
+"simulated": {
+    "simulated_section.simulated": "模拟",
+
+    "prevent_disassembly": "已阻止从非主物理装配器进行拆解",
+
+    "generic": {
+        "pull_when_clockwise": "顺时针旋转时吸入空气",
+        "push_when_clockwise": "顺时针旋转时吹出空气",
+        "swivel_default_always_locked": "始终锁定",
+        "swivel_default_always_unlocked": "始终解锁",
+        "swivel_default_unlocked": "有红石信号时锁定",
+        "swivel_default_locked": "无红石信号时锁定"
+    },
+
+    "key": {
+        "alt": "Alt"
+    },
+
+    "scroll_option": {
+        "swivel_default_locked": "红石锁定行为"
+    },
+
+    "linked_typewriter": {
+        "title": "联动打字机",
+        "start_controlling": "现在正在控制联动打字机",
+        "stop_controlling": "已停止控制联动打字机",
+        "bind_mode": "绑定模式已激活",
+        "press_keybind": "按任意键将此遥控器的频率绑定到联动打字机",
+        "key_bound": "频率已绑定到 %1$s",
+        "bound": "频率已绑定",
+        "controller_bound": "控制器频率已绑定",
+        "confirm_delete_all": "这将删除所有当前按键绑定。再次点击确认。",
+        "bind_screen_title": "编辑按键绑定",
+        "bind_screen_description": "输入绑定到：",
+        "bind_screen_prompt": "按下按键...",
+        "bind_item": "按任意键将此频率绑定到对应按键",
+        "bind_success": "频率已绑定到 %s",
+        "delete.key": "确认删除？",
+        "bind_new_key": "绑定新按键",
+        "linked_controller_copy": "已添加联动控制器按键",
+        "key_count": "%1$s 个已配置的按键"
+    },
+
+    "contraption_diagram": {
+        "total_mass": "总质量：",
+        "mass": "%s kpg",
+        "cannot_use": "此图纸必须用于可检查的模拟装置...",
+        "toggle_paper": "配置图纸",
+        "shown": "显示",
+        "hidden": "隐藏",
+        "center_of_mass": "质心：",
+        "merged": "合并",
+        "unmerged": "分开",
+        "merge_forces": "力箭头：",
+
+        "force_arrow": "%s 力，大小为 %s",
+        "merged_force_arrow": "%s 个 %s 力，总计 %s",
+        "merging_numeral": "%s",
+        "force_arrow_magnitude": "%s pN"
+    },
+
+    "analog_transmission": {
+        "too_fast": "过快",
+        "too_fast_error": "此 _模拟传动器_ 似乎试图超过 _最大转速_。请降低或移除其 _红石信号_ 以使其减速。"
+    },
+
+    "swivel_bearing": {
+        "too_fast": "过快",
+        "too_fast_error": "此 _转盘轴承_ 似乎旋转得 _过快_。"
+    },
+
+    "auger_shaft": {
+        "information": "螺旋钻轴信息",
+        "item_flow": "-> 移动 %1$s 组/秒",
+        "actor_items": "包含来自实体的 %1$s 个物品",
+        "update_progress": "物品进度："
+    },
+
+    "portable_engine": {
+        "tooltip_name": "便携式引擎",
+        "superheated": "过热",
+        "superheated_time": "过热（%s）",
+        "infinite": "无限",
+        "time": "燃烧时间：%s",
+        "fuel": "燃料：%s",
+        "none": "无",
+        "byproduct": "副产品：%s"
+    },
+
+    "velocity_sensor": {
+        "description": "最大速度",
+        "selection": {
+            "away": "远离",
+            "towards": "靠近"
+        }
+    },
+
+    "optical_sensor.max_length": "最大探测距离",
+    "laser_pointer.max_length": "最大投射距离",
+    "torsion_spring.angle_limit": "最大角度",
+    "nameplate": {
+        "edit": "编辑名称",
+        "target.unwaxed": "铭牌未上蜡"
+    },
+
+    "gui": {
+        "assembly.exception": {
+            "couldNotAlign": "无法对齐模拟装置以进行拆解！",
+            "outOfWorld": "无法在世界外进行拆解！",
+            "tooFarFromGround": "离地面太远，无法拆解！",
+            "tooFast": "移动过快，无法拆解！"
+        },
+
+        "hold_tip": {
+            "hold_to_assemble": "按住并拖动以组装",
+            "hold_to_disassemble": "按住并拖动以拆解",
+            "hold_to_adjust": "按住并拖动以调整",
+            "hold_to_rotate": "按住并拖动以旋转"
+        },
+
+        "altitude_sensor.title": "配置信号范围",
+
+        "modulating_linked_receiver": {
+            "title": "调制联动接收器",
+            "minimum_range": "最小范围",
+            "maximum_range": "最大范围",
+            "min": "最小",
+            "max": "最大"
+        },
+
+        "threshold_switch.rope_winch_length": "%1$s 格"
+    },
+
+    "zipline": {
+        "too_far": "绳索太远！",
+        "too_steep": "绳索太陡！"
+    },
+
+    "extra_kinetics": {
+        "default": "额外动力学",
+        "information": "信息：",
+        "extra_cogwheel": "旋转齿轮",
+        "torsion_output": "输出轴"
+    },
+
+    "plunger_launcher": {
+        "clear_plungers": "已清除发射的吸盘！"
+    },
+
+    "spring": {
+        "out_of_range": "超出范围！",
+        "same_block": "同一方块位置！",
+        "block_exists": "此处已有方块！",
+        "not_enough_support": "此面支撑不足！",
+        "connection_terminated": "选择已放弃",
+        "new_length": "长度已设置为 %s 米",
+        "min_length": "长度已达最小值（%s 米）",
+        "max_length": "长度已达最大值（%s 米）",
+        "too_compressed": "压缩过度！",
+        "too_stretched": "拉伸过度！"
+    },
+
+    "altitude_sensor": {
+        "height": "高度：%s",
+        "air_pressure": "气压：%s"
+    },
+
+    "gimbal_sensor": {
+        "x_angle": "X 轴角度：%s",
+        "z_angle": "Z 轴角度：%s"
+    },
+
+    "merging_glue": {
+        "out_of_range": "超出范围！",
+        "same_block": "同一方块位置！",
+        "block_exists": "此处已有方块！",
+        "invalid_directions": "无效方向！",
+        "only_between_sub_levels": "只能在模拟装置之间使用胶水！",
+        "same_sub_level": "不能在同一个模拟装置上使用胶水！",
+        "not_enough_support": "此面支撑不足！",
+        "connection_terminated": "选择已放弃"
+    },
+
+    "unit": {
+        "mass": "%s kpg",
+        "restitution": "%s%%",
+        "friction": "%s μ",
+        "floating": "%s kpg",
+
+        "length_blocks": "格"
+    },
+
+    "tooltip": {
+        "dynamic_stress_impact": "动态",
+
+        "properties": "属性：",
+        "mass": {
+            "none": "无重",
+            "super_light": "超轻",
+            "light": "轻",
+            "heavy": "重",
+            "super_heavy": "超重",
+            "absurdly_heavy": "荒谬地重"
+        },
+        "friction": {
+            "slippery": "光滑",
+            "sticky": "粘滞"
+        },
+        "bouncy": "有弹性",
+        "fragile": "易碎",
+        "airtight": "气密",
+        "floating": "浮力",
+
+        "new_ponder": "（新！）"
+    },
+
+    "display_source": {
+        "optical_sensor": {
+            "data": "光学传感器数据",
+            "detected_block": "探测到的方块",
+            "block_distance": "方块距离"
+        },
+
+        "laser_sensor": {
+            "data": "激光传感器数据",
+            "laser_distance": "激光距离"
+        },
+
+        "velocity_sensor": {
+            "data": "速度传感器数据",
+            "speed": "相对速度",
+            "description": "最大速度和输出方向",
+            "towards": "靠近",
+            "away": "远离"
+        },
+
+        "altitude_sensor": {
+            "data": "高度传感器数据",
+            "height": "高度",
+            "air_pressure": "气压"
+        },
+
+        "gimbal_sensor": {
+            "data": "万向传感器数据",
+            "x_angle": "X 轴角度",
+            "z_angle": "Z 轴角度"
+        },
+
+        "portable_engine": {
+            "data": "便携式引擎数据",
+            "current_burn": "当前燃烧时间",
+            "total_burn": "总燃烧时间"
+        },
+
+        "navigation_table": {
+            "data": "导航台数据",
+            "distance": "目标距离",
+            "eta_real": "预计到达时间"
+        },
+
+        "typewriter": {
+            "typed_text": "输入的文字"
+        },
+
+        "item_throughput": "物品吞吐量",
+        "sublevel_name": "装置名称"
+    }
+},
+
+"generator.simulated": {
+    "airship_ready": "飞艇就绪",
+    "airship_ready.info": "一个 Y=63 的超平坦世界，用于模拟正常气压条件。",
+    "end_sea": "末地之海"
+},
+
+"block.simulated": {
+    "handle.tooltip": {
+        "summary": "附着在方块上，便于_抓取_。",
+        "condition1": "长按右键",
+        "behaviour1": "_抓住_把手，围绕其移动自身。",
+        "condition2": "潜行长按右键",
+        "behaviour2": "_抓住_把手，仅移动把手所在的_模拟装置_。",
+        "condition3": "长按右键时滚动滚轮",
+        "behaviour3": "调整_距离_，使把手靠近或远离"
+    },
+
+    "linked_typewriter.tooltip": {
+        "summary": "方便地控制分配给其_按键_的多个_红石联动_频率。",
+        "condition1": "当右键点击时",
+        "behaviour1": "_开关_联动打字机。激活期间将接管_移动控制_和任何_已分配的按键_。",
+        "condition2": "当潜行右键点击时",
+        "behaviour2": "打开手动_配置界面_。",
+        "condition3": "用联动控制器右键点击",
+        "behaviour3": "将_联动控制器的_频率绑定到打字机。",
+        "condition4": "在红石联动接收器上右键点击物品",
+        "behaviour4": "启用_绑定模式_，按_任意键_将其绑定到_联动的频率_。（联动打字机_被破坏_时会_保存_频率）"
+    },
+
+    "absorber.tooltip": {
+        "summary": "§c[占位符] 未完成。不§c工作。"
+    },
+
+    "nameplate.tooltip": {
+        "summary": "_宣告_你的_模拟装置_的名称！",
+        "condition1": "当右键点击时",
+        "behaviour1": "_编辑_铭牌上显示的_名称_",
+        "condition2": "用染料右键点击时",
+        "behaviour2": "_更改_铭牌上名称的_颜色_",
+        "condition3": "用蜜脾右键点击时",
+        "behaviour3": "_锁定_铭牌上显示的名称",
+        "condition4": "在模拟装置上使用时",
+        "behaviour4": "所有铭牌将_共享并设置__模拟装置_的名称"
+    },
+
+    "redstone_inductor": {
+        "copy": "复制",
+        "invert": "反转"
+    },
+
+    "redstone_accumulator": {
+        "input_delay": "输入延迟"
+    }
+},
+
+"item.simulated": {
+    "plunger_launcher.tooltip": {
+        "summary": "嗖！利用吸力移动_模拟装置_。可通过_背罐_的_气压_供能。",
+        "condition1": "当右键点击时",
+        "behaviour1": "_发射_带有绳索的_吸盘_。两个发射的吸盘会_连接_并_将附着的方块拉在一起_。",
+        "condition2": "当潜行右键点击时",
+        "behaviour2": "_移除_所有带有绳索的_吸盘_。",
+        "condition3": "当佩戴背罐时",
+        "behaviour3": "_不消耗_ _耐久度_，而是消耗背罐中的_气压_"
+    },
+
+    "spring.tooltip": {
+        "summary": "啵嘤！用_弹簧__连接_两个方块。",
+        "condition1": "用扳手右键点击时",
+        "behaviour1": "调整弹簧的_强度_",
+        "condition2": "用弹簧右键点击时",
+        "behaviour2": "_增加_静止长度",
+        "condition3": "潜行用弹簧右键点击时",
+        "behaviour3": "_减少_静止长度"
+    },
+
+    "creative_physics_staff.tooltip": {
+        "summary": "用于移动_模拟装置_的_创造模式_工具。",
+        "condition1": "在模拟装置上左键点击",
+        "behaviour1": "_目标装置_将_锁定在原地_。",
+        "condition2": "在模拟装置上右键点击",
+        "behaviour2": "_切换_用手杖_拖拽目标装置_。",
+        "condition3": "拖拽时按住 Tab",
+        "behaviour3": "用手杖_旋转__目标装置_。",
+        "condition4": "拖拽时滚动滚轮",
+        "behaviour4": "调整_拖拽目标装置_的_距离_"
+    },
+
+    "contraption_diagram.tooltip": {
+        "summary": "一张_可视化图纸_，包含关于_模拟装置_的详细信息。",
+        "condition1": "在模拟装置上右键点击时",
+        "behaviour1": "_可视化_作用在_模拟装置_上的力"
+    }
+},
+
+"commands.simulated.lock.success": "已更新 %s 个子关卡%2$s 的锁定状态",
+
+"create": {
+    "item_attributes": {
+        "block_mass": "质量为 %s kpg",
+        "block_mass.inverted": "质量不是 %s kpg",
+        "block_friction": "摩擦力为 %s μ",
+        "block_friction.inverted": "摩擦力不是 %s μ",
+        "block_bounciness": "弹性为 %s",
+        "block_bounciness.inverted": "弹性不是 %s"
+    }
+}
+}

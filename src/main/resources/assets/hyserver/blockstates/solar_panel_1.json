@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "hyserver:block/solar_panel_1" }
+  }
+}

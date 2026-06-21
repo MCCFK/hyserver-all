@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"render_type": "minecraft:translucent",
+	"textures": {
+		"up": "hyserver:block/infinite_lava",
+		"down": "hyserver:block/infinite",
+		"particle": "hyserver:block/infinite_lava",
+		"north": "hyserver:block/infinite_lava"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#north"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#north"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#north"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#down"}
+			}
+		}
+	]
+}

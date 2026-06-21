@@ -1,0 +1,23 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:infested_stone"
+    },
+    {
+      "item": "minecraft:infested_stone"
+    },
+    {
+      "item": "minecraft:infested_stone"
+    },
+    {
+      "item": "minecraft:infested_stone"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:experience_nugget",
+      "count": 4
+    }
+  ]
+}

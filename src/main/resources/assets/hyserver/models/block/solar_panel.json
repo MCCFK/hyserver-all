@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "hyserver:block/solar_panel_1",
+    "north": "hyserver:block/solar_panel_2",
+    "south": "hyserver:block/solar_panel_2",
+    "east": "hyserver:block/solar_panel_2",
+    "west": "hyserver:block/solar_panel_2",
+    "up": "hyserver:block/solar_panel_1",
+    "down": "hyserver:block/solar_panel_2"
+  }
+}

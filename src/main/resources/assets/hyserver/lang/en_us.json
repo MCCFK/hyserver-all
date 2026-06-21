@@ -1,0 +1,130 @@
+{
+  "hyserver.permission.level.0": "Regular Player",
+  "hyserver.permission.level.1": "Junior Admin",
+  "hyserver.permission.level.2": "Senior Admin",
+  "cfk.itemGroup.hyserver": "HuiYang Server",
+  "block.hyserver.andesite_machine": "Andesite Machine",
+  "block.hyserver.copper_machine": "Sealed Machine",
+  "block.hyserver.brass_machine": "Brass Machine",
+  "block.hyserver.redstone_machine": "Redstone Machine",
+  "block.hyserver.infinite_lava": "Infinite Lava Source",
+  "block.hyserver.infinite_water": "Infinite Water Source",
+  "item.hyserver.dimension_key": "Dimension Key",
+  
+  "block.hyserver.solar_panel": "Solar Panel",
+  "block.hyserver.solar_panel_1": "Tier 1 Compressed Solar Panel",
+  "block.hyserver.solar_panel_2": "Tier 2 Compressed Solar Panel",
+  "block.hyserver.solar_panel_3": "Tier 3 Compressed Solar Panel",
+  
+  "item.hyserver.solar_panel": "Solar Panel",
+  "item.hyserver.solar_panel_1": "Tier 1 Compressed Solar Panel",
+  "item.hyserver.solar_panel_2": "Tier 2 Compressed Solar Panel",
+  "item.hyserver.solar_panel_3": "Tier 3 Compressed Solar Panel",
+  
+  "item.hyserver.durian_processing_knife": "Durian Processing Knife",
+  "item.hyserver.temp_df": "Temporary DF Item",
+  
+  "item.hyserver.african_star": "African Star",
+  "item.hyserver.ocean_tear": "Ocean Tear",
+  "item.hyserver.experimental_data": "Experimental Data",
+  "item.hyserver.sugar_triangle": "Sugar Triangle",
+  "item.hyserver.design_blueprint": "Design Blueprint",
+  "item.hyserver.carbon_fiber_plate": "Carbon Fiber Plate",
+  "item.hyserver.gold_bar": "Gold Bar",
+  "item.hyserver.impressionist_painting": "Impressionist Painting",
+  "item.hyserver.asara_classified_docs": "Asara Guard Classified Documents",
+  "item.hyserver.dancing_girl": "Dancing Girl",
+  "item.hyserver.gold_coin": "Gold Coin",
+  "item.hyserver.silver_coin": "Silver Coin",
+  "item.hyserver.copper_coin": "Copper Coin",
+  "item.hyserver.little_joker": "Little Joker",
+  
+  "item.hyserver.note_paper": "Note Paper",
+  
+  "config.create.client_settings": "Client Settings",
+  "config.create.world_generation_settings": "World Generation Settings",
+  "config.create.gameplay_settings": "Gameplay Settings",
+  
+  "hyserver.commandhelp.hyserver.help.usage": "&eUsage: &7/hyserver help [keyword]",
+  "hyserver.commandhelp.hyserver.help.desc": "&eDescription: &7View command help (supports search)",
+  
+  "hyserver.commandhelp.hytpa.usage": "&eUsage: &7/hytpa <player>",
+  "hyserver.commandhelp.hytpa.desc": "&eDescription: &7Request to teleport to player",
+  
+  "hyserver.commandhelp.hytpahere.usage": "&eUsage: &7/hytpahere <player>",
+  "hyserver.commandhelp.hytpahere.desc": "&eDescription: &7Request player to teleport to you",
+  
+  "hyserver.commandhelp.hytpaccept.usage": "&eUsage: &7/hytpaccept [player]",
+  "hyserver.commandhelp.hytpaccept.desc": "&eDescription: &7Accept TPA request",
+  
+  "hyserver.commandhelp.hytpdeny.usage": "&eUsage: &7/hytpdeny [player]",
+  "hyserver.commandhelp.hytpdeny.desc": "&eDescription: &7Deny TPA request",
+  
+  "hyserver.commandhelp.hytpcancel.usage": "&eUsage: &7/hytpcancel",
+  "hyserver.commandhelp.hytpcancel.desc": "&eDescription: &7Cancel TPA request",
+  
+  "hyserver.commandhelp.hyrtp.usage": "&eUsage: &7/hyrtp",
+  "hyserver.commandhelp.hyrtp.desc": "&eDescription: &7Random teleport (no cooldown for level 2)",
+  
+  "hyserver.commandhelp.hyback.usage": "&eUsage: &7/hyback",
+  "hyserver.commandhelp.hyback.desc": "&eDescription: &7Return to previous location",
+  
+  "hyserver.commandhelp.hysethome.usage": "&eUsage: &7/hysethome <name>",
+  "hyserver.commandhelp.hysethome.desc": "&eDescription: &7Set home at current location",
+  
+  "hyserver.commandhelp.hyhome.usage": "&eUsage: &7/hyhome <name>",
+  "hyserver.commandhelp.hyhome.desc": "&eDescription: &7Teleport to home (supports Tab completion)",
+  
+  "hyserver.commandhelp.hydhome.usage": "&eUsage: &7/hydhome <name>",
+  "hyserver.commandhelp.hydhome.desc": "&eDescription: &7Delete home (supports Tab completion)",
+  
+  "hyserver.commandhelp.hydimension.usage": "&eUsage: &7/hydimension switch <dimension>",
+  "hyserver.commandhelp.hydimension.desc": "&eDescription: &7Switch dimension (overworld/nether/end)",
+  
+  "hyserver.commandhelp.hyserver.desc": "&eDescription: &7Server management commands",
+  
+  "hyserver.commandhelp.hyserver.op.desc": "&eDescription: &7Permission management",
+  
+  "hyserver.commandhelp.hyserver.op.info.usage": "&eUsage: &7/hyserver op info [player]",
+  "hyserver.commandhelp.hyserver.op.info.desc": "&eDescription: &7View permission information",
+  
+  "hyserver.commandhelp.hyserver.op.set.usage": "&eUsage: &7/hyserver op set <player> <0-2>",
+  "hyserver.commandhelp.hyserver.op.set.desc": "&eDescription: &7Set player permission level",
+  
+  "hyserver.commandhelp.hyserver.server.usage": "&eUsage: &7/hyserver server <command>",
+  "hyserver.commandhelp.hyserver.server.desc": "&eDescription: &7Execute command on server console (level 2)",
+  
+  "hyserver.commandhelp.hyserver.reload.usage": "&eUsage: &7/hyserver reload",
+  "hyserver.commandhelp.hyserver.reload.desc": "&eDescription: &7Reload configuration",
+  
+  "hyserver.commandhelp.hyserver.title.desc": "&eDescription: &7Title system",
+  
+  "hyserver.commandhelp.hyserver.title.set.usage": "&eUsage: &7/hyserver title set <player> <title>",
+  "hyserver.commandhelp.hyserver.title.set.desc": "&eDescription: &7Set title for other player (level 2)",
+  
+  "hyserver.commandhelp.hyserver.title.seti.usage": "&eUsage: &7/hyserver title seti <title>",
+  "hyserver.commandhelp.hyserver.title.seti.desc": "&eDescription: &7Set title for yourself",
+  
+  "hyserver.commandhelp.hyserver.uuid.usage": "&eUsage: &7/hyserver uuid [player]",
+  "hyserver.commandhelp.hyserver.uuid.desc": "&eDescription: &7Get player UUID",
+  
+  "hyserver.commandhelp.hyserver.music-getid.usage": "&eUsage: &7/hyserver music-getid",
+  "hyserver.commandhelp.hyserver.music-getid.desc": "&eDescription: &7NetEase Cloud Music import assistant",
+  
+  "hyserver.commandhelp.hyserver.ban.usage": "&eUsage: &7/hyserver ban <player> <reason> [duration]",
+  "hyserver.commandhelp.hyserver.ban.desc": "&eDescription: &7Ban player",
+  
+  "hyserver.commandhelp.hyserver.unban.usage": "&eUsage: &7/hyserver unban <player>",
+  "hyserver.commandhelp.hyserver.unban.desc": "&eDescription: &7Unban player",
+  
+  "hyserver.commandhelp.hyserver.banlist.usage": "&eUsage: &7/hyserver banlist",
+  "hyserver.commandhelp.hyserver.banlist.desc": "&eDescription: &7View ban list",
+  
+  "hyserver.commandhelp.hyclient.desc": "&eDescription: &7Client commands",
+  
+  "hyserver.commandhelp.hyclient.info.usage": "&eUsage: &7/hyclient info",
+  "hyserver.commandhelp.hyclient.info.desc": "&eDescription: &7View detailed client information",
+  
+  "hyserver.commandhelp.msg.usage": "&eUsage: &7/msg <player> <message>",
+  "hyserver.commandhelp.msg.desc": "&eDescription: &7Private message (supports color codes)"
+}

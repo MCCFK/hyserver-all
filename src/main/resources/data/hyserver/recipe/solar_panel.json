@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "SBS",
+    "CLC"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "S": {
+      "item": "ae2:silicon"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    },
+    "L": {
+      "item": "createaddition:large_connector"
+    }
+  },
+  "result": {
+    "id": "hyserver:solar_panel",
+    "count": 1
+  }
+}

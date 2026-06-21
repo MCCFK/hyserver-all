@@ -1,0 +1,1 @@
+{ "type": "hyserver:hydimension_type_13", "generator": { "type": "minecraft:flat", "settings": { "biome": "minecraft:plains", "layers": [{ "block": "minecraft:bedrock", "height": 1 }] } } }

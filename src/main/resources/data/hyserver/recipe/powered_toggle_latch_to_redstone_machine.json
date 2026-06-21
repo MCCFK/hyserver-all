@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "hyserver:redstone_machine"
+  },
+  "result": {
+    "id": "create:powered_toggle_latch"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "tag": "c:lava",
+      "amount": 100
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:veridium",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "heated"
+}

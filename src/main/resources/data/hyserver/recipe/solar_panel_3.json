@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "121",
+    "010"
+  ],
+  "key": {
+    "0": {
+      "item": "hyserver:solar_panel_2"
+    },
+    "1": {
+      "item": "ae2:silicon"
+    },
+    "2": {
+      "item": "createaddition:capacitor"
+    }
+  },
+  "result": {
+    "id": "hyserver:solar_panel_3",
+    "count": 1
+  }
+}

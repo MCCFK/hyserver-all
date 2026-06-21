@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "hyserver:temp_df",
+    "hyserver:african_star",
+    "hyserver:ocean_tear",
+    "hyserver:experimental_data",
+    "hyserver:sugar_triangle",
+    "hyserver:design_blueprint",
+    "hyserver:carbon_fiber_plate",
+    "hyserver:gold_bar",
+    "hyserver:impressionist_painting",
+    "hyserver:asara_classified_docs",
+    "hyserver:dancing_girl",
+    "hyserver:gold_coin",
+    "hyserver:silver_coin",
+    "hyserver:copper_coin",
+    "hyserver:little_joker"
+  ],
+  "_comment": "DF物品标签 - 带有此标签的物品会生成自定义地面掉落物实体并显示自定义UI"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "hyserver:copper_machine"
+  },
+  "result": {
+    "id": "create:steam_whistle"
+  }
+}
