@@ -1,0 +1,7 @@
+{
+  "bannedItems": [
+    "minecraft:command_block"
+  ],
+  "normalBannedItems": [
+  ]
+}
